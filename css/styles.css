@@ -1,0 +1,85 @@
+/* font-weight: 300; font-size: 16px line-height: 1.2em; */
+body {
+	font: 300 16px/1.2em 'Lato', sans-serif;
+	color: #747704;
+}
+
+
+/* Header */
+/* increase font size for the title name */
+.title-name {
+	font-size: 60px;
+}
+
+/* margin-top: 20px to move logo down from top of viewport */
+.title-logo {
+	margin: 20px 0 0 0;
+}
+
+
+/* Content */
+.text-muted {
+	color: #bcbbbb;
+}
+
+.text-thin {
+	font-weight: 100;
+}
+
+/* margin-bottom: 40px to give the projects space */
+.bottom-spacing {
+	margin: 0 0 40px 0;
+}
+
+/* center the images for the projects */
+.project-img {
+	display: inline-block;
+}
+
+
+/* Footer */
+/* padding-top: 0px padding-bottom: 25px; give the footer some padding*/
+.footer {
+	padding: 0 0 25px 0;
+}
+
+
+/* media queries */
+/* Medium Devices, Desktops decrease font size for name and roll on smaller screen */
+@media only screen and (max-width: 992px) {
+	.title-name {
+		font-size: 42px;
+	}
+
+	.title-role {
+		font-size: 18px;
+	}
+}
+
+/* Small Devices, Tablets decrease font sizes and hide the carousel description
+on smaller screen */
+@media only screen and (max-width: 768px) {
+	.carousel-descrip {
+		display: none;
+	}
+
+	.carousel-header {
+		font-size: 18px;
+	}
+
+	.title-name {
+		font-size: 36px;
+	}
+
+	.title-role {
+		font-size: 16px;
+	}
+}
+
+/* Extra Small Devices, Phones decrease carousel-header size on very small
+screens */
+@media only screen and (max-width: 480px) {
+	.carousel-header {
+		font-size: 14px;
+	}
+}
